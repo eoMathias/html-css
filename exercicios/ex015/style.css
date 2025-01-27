@@ -1,0 +1,20 @@
+body{
+    background-color: slategray;
+    color: whitesmoke;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+h1{
+    color: black;
+}
+h2{
+    color: midnightblue;
+
+}
+p{
+    color: aqua;
+    text-align: justify;
+}
+footer{
+    color: aquamarine;
+}

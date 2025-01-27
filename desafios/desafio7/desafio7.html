@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio 7 - Imagens flexíveis</title>
+</head>
+<body>
+    <h1>Imagem que mexe de acordo com a tela xD</h1>
+    <p>Segura essa imagem pega gratuitamente no <a href="https://www.pexels.com/pt-br/">Pexels</a> e o melhor ela é <strong>flexível</strong></p>
+    <picture>
+        <source media="(max-width:750px)" srcset="landscape-p.jpg">
+        <source media="(max-width: 1050px)" srcset="landscape-m.jpg">
+        <source media="(max-width: 1530px)" srcset="landscape-g.jpg">
+        <img src="landscape-mg.jpg" alt="Imagem fonte tamanho 1500px">
+    </picture>
+</body>
+</html>

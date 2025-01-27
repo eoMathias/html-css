@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas e Alinhamento</title>
+    <style>
+        *{
+            height: auto;
+            background-attachment: fixed;
+        }
+        @font-face {
+            font-family: 'Old London';
+            src: url('fonts/OldLondon.ttf') format('truetype'),
+            url('fonts/Olondon_.otf') format('opentype')
+        }
+        @font-face {
+            font-family: 'Old English';
+            src: url('fonts/OldeEnglish.ttf') format('truetype')
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 50px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px #320842;
+        }
+        body{
+            background-image: linear-gradient(to bottom, #56226B, #772F94 , #983CBD );
+        }
+       /*text-align para dar referência das letras (center), (right), (left) e (justify)*/
+        h1{
+            text-shadow: 5px 2px 2px #461c56;
+            
+            text-align: center;
+            color: #9a3ebe;
+            font-family: 'Old London', 'Times New Roman', serif;
+            font-size: 3em;
+        }
+        h2{
+            color: #9a3ebe;
+            margin-left: 20px;
+            text-shadow: 2px 2px 2px #461c56;
+            font-family: 'OldLondon', 'Times New Roman', serif;
+            font-size: 3em;
+        }
+        p{
+            font: bold 1.9em 'Old English', 'Times New Roman', 'Roman', serif ;
+            text-align: justify;
+        }
+    </style>
+</head>
+<main>
+    <body>
+        <h1>Capítulo 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum culpa quod quam, quisquam ratione nesciunt eligendi rerum, repellat cupiditate sit, cumque est optio! Obcaecati quibusdam nihil expedita nemo accusamus aliquid?</p>
+        <h2>Subtítulos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga blanditiis fugit nobis magnam fugiat veniam cupiditate doloremque autem, aperiam, dignissimos voluptatem sunt nemo inventore quibusdam vitae dolore minus, dicta ullam!</p>
+    </body>
+</main>
+</html>

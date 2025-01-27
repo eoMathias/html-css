@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses em HTML</title>
+    <style>
+        div{
+            text-align: center;
+            background-color: lightslategray;
+            width: 200px;
+            height: 200px;
+            border: 3px solid black;
+            margin: 2px;
+            display: inline-block;
+        }
+        p {
+            background-color: burlywood;
+            display: none;
+        }
+        div:hover > p{
+            display: inline-block;
+            color:aliceblue;
+        }
+        button{
+            width: 200px;
+            height: 200px;
+            color: black;
+            background-color: whitesmoke;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Passar o mosue</h1>
+    <div><p>Achou!!!!</p></div>
+    <div><p>Achou!!!!</p></div>
+    <div><p>Achou!!!!</p></div>
+</body>
+</html>

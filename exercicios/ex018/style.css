@@ -1,0 +1,27 @@
+@charset "UTF-8";
+main{
+    background-color: whitesmoke;
+    margin: 60px;
+    border-radius: 10px;
+    padding-bottom: -20px;
+}
+body{
+    background-image: linear-gradient(to top,#375E4B, #398961, #2CB370);
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: #2a6548;
+
+}
+#principal{
+    text-align: center;
+    text-shadow:2px 2px 4px #1e342a;
+}
+h2{
+    color: #2a6548;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}

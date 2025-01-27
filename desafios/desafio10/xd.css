@@ -1,0 +1,135 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: Android;
+    src: url(pacote-desafio-10/fontes/idroid.otf);
+}
+@font-face {
+    font-family: Bebas Neue;
+    src:url(pacote-desafio-10/fontes/BebasNeue-Regular.ttf)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ebe5c5;
+}
+header{
+    padding-top: 40px;
+    background-image: linear-gradient(to top, #213329, #3d5e4e, #73ad90);
+    color: white;
+}
+header > h1{
+    font-size: 48px;
+    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.466 );
+    margin-top: 0px;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+header>p{
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+#navigation{
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+#navigation > a{
+    padding: 10px 10px 6px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    color: whitesmoke;
+    
+}
+nav> a:hover{
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+    background-color: #73ad90;
+}
+#imgs{
+    margin: auto;
+}
+main{
+    margin: 0px 100px 0px 100px;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+span{
+    color: darkgreen;
+}
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(2, 56, 2);
+    background-image: linear-gradient(to right, rgb(123, 228, 123) , lightgreen);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.links:hover{
+    text-decoration:underline;
+}
+.links::after{
+    content:" ⛓️‍💥"
+}
+section{
+    margin: 10px 50px -15px 50px ;
+}
+#principal{
+    font-family: 'Android';
+    font-size: 2em;
+    margin-top: 0px;
+    background-color: whitesmoke;
+}
+.android{
+    padding-left: 10px;
+    background-image:linear-gradient(to right, rgb(162, 244, 162),rgb(184, 238, 184) , whitesmoke);
+    font-family: 'Android';
+}
+#video{
+    margin:10px auto;
+    padding-top: 10px;
+    background-color: #317237;
+    text-align: center;
+    border-radius: 10px;
+}
+#sec-1{
+    margin-top: 0px;
+}
+p{
+    padding: 13px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#extra{
+    border-radius: 10px;
+    background-color: lightgreen;
+    width: 1100px;
+    padding: 100px;
+}
+footer{
+    color: rgb(163, 163, 163);
+    background-color: darkgreen;
+    text-align: center;
+    width:  100%;
+    margin-top: 8px;
+}
+footer>span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold;
+    color: whitesmoke;
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de formatação</title>
+    <style>
+        mark {
+            background-color: rgb(129, 235, 90);
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatações existentes em HTML5</h1>
+    <h2>Negrito / Destaque</h2>
+        <p>Nesta frase nois ter <b>termo em negrito</b> q é bem feio usar xD(tag utilizada&lt;br&gt;)</p>
+        <p>Já nesta frase nois ter <strong>termo em destaque</strong> usando a tag &lt;strong&gt; que significa forte que deixa a frase em destaque ou forte de acordo com o guanabra é bonito fazer</p>
+    <h2>Itálico / Ênfase</h2>        
+        <p>Aqui nos vamos ter um <i>termo em itálico</i> que deixa o termo destacado meio caido sla é feio fazer assim&lt;i&gt;<p>
+        <p>Já nesta citação teremos um <EM>termo em destaque</EM> que será basicamente identico ao termo mostrado acima porém vai ser utilizado de uma maneira coerente com o sistema de linguagem utlizado (tag &lt;EM&gt;) </p>
+    <h2>Marcação</h2>
+        <p>Nesta frase nós temos um <mark>texto marcado</mark> pela tag &lt;mark&gt;, também é possível utilizar as css aq utilizando style, que não é bem uma tag é mais como se fosse um adicional da tag mark ok? como por exemplo <mark style="background-color: rgb(97, 136, 199);">neste texto</mark></p>
+    <h2>tem mais formatação</h2>
+        <p>ai tem <del>texto deletado</del> que não deve ser levado à sério usando a tag &lt;del&gt; </p>
+    <h2>Texto adicionado</h2>
+        <p>ai nos temos um <ins>texto que foi adicionado</ins> posteriormente tag utilizada &lt;ins&gt;</p>
+    <h2>Texto Sobrescrito</h2>
+            <p>TAG utilizada &lt;sup&gt; que nada mais é doq um texto que contém aqls letrinhas de potenciação tlgd piq isso aq 2<sup>1000</sup></p>
+    <h2>Texto Subscrito</h2>
+        <p>TAG utilizada &lt;sub&gt;q nada mais é doq aqls número q fica abaixo das outras letras numa formula quimica piq isso aq H<sub>2</sub>0</p>
+
+        <p>é mt viadagem</p>
+    <h2>Pré-formatação e códigos</h2>
+        <p>com as tags &lt;pre&gt; e &lt;code&gt;, podemos ter uma interação interessante, com a utilização dessas tags conseguiremos digitar um código de python, javascript ou qualquer outra linguagem de programação em HTML sem ter falhas na sua formatção.
+            Exemplos:(sem formatação)
+                num = int(input('Digite um número: '))
+                if num %2 == 0
+                    print(f'O número {num} é par!)
+                else 
+                    printf('O número {num} é ímpar!')
+            print('FIM DO PROGRAMA')</p>
+        <br>
+        <p>Como podem perceber o texto está sem espaçamento e pulos de linha nenhum, devido a falta de formatação, agora vou fazer com o mesmo código porém com o uso das tags &lt;pre&gt; e &lt;code&gt;</p>
+            <pre>
+                <code>
+    num = int(input('Digite um número: '))
+    if num %2 == 0
+        print(f'O número {num} é par!)
+    else 
+        printf('O número {num} é ímpar!')
+    print('FIM DO PROGRAMA')
+                </code>
+            </pre>
+        <p>com a tag &lt;code&gt; nós deixamos as letras utilizadas monoespaçadas, isso é, todas vão "gastar" o mesmo espaço de pixels, e com a tag &lt;pre&gt; toda formatação utilizada no código-fonte, ou seja, cada linha e espaço utilizado no visual studio vai ser repassada para o site.</p>
+    <br>
+            <h1>TESTES</h1>
+        <p>Assine aqui ----></p><pre><ins>                </ins></pre>
+
+
+</body>
+</html>
