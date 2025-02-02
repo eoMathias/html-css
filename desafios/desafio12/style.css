@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --fonte-padrao: Verdana, Tahoma, sans-serif;
+    --fonte-cursive: Sour Gummy;
+}
+header{
+    font-family: var(--fonte-padrao);
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+header>h1{
+    font-size: 5rem;
+    padding-bottom: 20px;
+}
+header>p{
+    font-family: var(--fonte-padrao);
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+header p>a{
+    color: white;
+    text-decoration: none;
+}
+header p >a:hover{
+    text-decoration: underline;
+}
+#cordel>p{
+    font-family: var(--fonte-cursive);
+    font-size: 2rem;
+    font-size: 5vw;
+    text-align: left;
+    margin: 40px 30px;
+    line-height: 100px;
+}
+#img1{
+    max-width: 1000px;
+    background-image: url('pacote-d012/imagens/background001.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-right: 40px;
+
+}
+#img2{
+    max-width: 1000px;
+    background-image: url('pacote-d012/imagens/background002.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-right: 40px;
+}
+.destaque{
+    background-color: rgba(0, 0, 0, 0.426);
+    max-width: 200px;
+    color: white;
+    font-family: var(--fonte-cursive);
+    font-size: 2rem;
+    font-size: 5vw;
+    text-align: left;
+    line-height: 60px;
+    max-width: 1000px;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+footer p{
+    font-size: 1rem;
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        #container{
+            position: relative;
+            background-color: purple;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            height: 97vh;
+            padding: 10px;
+        }
+        #conteudo1{
+            position: absolute;
+            background-color: rgb(255, 0, 0);
+            width: 87px;
+            height: 55px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-100%,-100%);
+            z-index: 1;
+        }
+        #conteudo2{
+            position: absolute;
+            background-color: rgb(0, 255, 0);
+            width: 87px;
+            height: 55px;
+            left: 50%;
+            top: 50%;
+            transform: translate(0%, -100%);
+            z-index: 1;
+        }
+        #conteudo3{
+            position: absolute;
+            background-color: rgb(0, 0, 255);
+            width: 87px;
+            height: 55px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-100%);
+            z-index: 1
+        }
+        #conteudo4{
+            position: absolute;
+            background-color: rgb(255, 255, 0);
+            width: 87px;
+            height: 55px;
+            left: 50%;
+            top: 50%; 
+            z-index: 10;
+        }
+        #fundo1{
+            position: absolute;
+            background-color: rgba(255, 255, 255);
+            width: 743px;
+            height: 340px;
+            
+        }
+        #fundo2{
+            position: absolute;
+            background-color: rgba(255, 255, 255);
+            width: 743px;
+            height: 340px;
+
+            left: 50%;
+        }
+        #fundo3{
+            position: absolute;
+            background-color: rgba(255, 255, 255);
+            width: 743px;
+            height: 340px;
+
+            top: 50%;
+        }
+        #fundo4{
+            position: absolute;
+            background-color: rgb(255, 255, 255);
+            width: 743px;
+            height: 340px;
+
+            left: 50%;
+            top: 50%;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo1"></article>
+        <article id="conteudo2"></article>
+        <article id="conteudo3"></article>
+        <article id="conteudo4"></article>
+        <article id="fundo1"></article>
+        <article id="fundo2"></article>
+        <article id="fundo3"></article>
+        <article id="fundo4"></article>
+    </section>
+</body>
+</html>
