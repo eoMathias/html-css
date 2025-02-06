@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+        #container{
+            position: relative;
+            background-color: purple;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            width: 100vw;
+            height: 100vh;
+            
+        }
+        #conteudo{
+            position: absolute;
+            background-color: yellow;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            width: 50vw;
+            height: 50vh;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%)  ;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="conteudo">
+        </div>
+    </div>
+</body>
+</html>
